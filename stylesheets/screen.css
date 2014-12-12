@@ -1,0 +1,11 @@
+/* line 1, ../sass/screen.scss */
+body {
+  background: white;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+}
+
+/* line 6, ../sass/screen.scss */
+div.wrapper {
+  margin: 0 auto;
+  width: 80%;
+}

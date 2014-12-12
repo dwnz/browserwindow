@@ -1,0 +1,206 @@
+/* line 5, ../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../sass/browser.scss */
+.clearfix {
+  clear: both;
+}
+
+/* line 11, ../sass/browser.scss */
+.browser {
+  width: 100%;
+  height: 400px;
+  margin: 20px auto 30px;
+}
+/* line 16, ../sass/browser.scss */
+.browser .tablet {
+  display: none;
+}
+@media (max-width: 768px) {
+  /* line 16, ../sass/browser.scss */
+  .browser .tablet {
+    display: block;
+    width: 100%;
+    border: 1px solid #999;
+    border-bottom: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+}
+/* line 29, ../sass/browser.scss */
+.browser .tablet time {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 1% 5%;
+}
+/* line 36, ../sass/browser.scss */
+.browser .tablet ul {
+  width: 28%;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+/* line 42, ../sass/browser.scss */
+.browser .tablet ul li {
+  float: left;
+  padding: 5% 5%;
+}
+/* line 48, ../sass/browser.scss */
+.browser .tablet ul.battery li {
+  text-align: right;
+  width: 100%;
+  display: inline-block;
+}
+/* line 57, ../sass/browser.scss */
+.browser .toolbar {
+  background: #efefef;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 46px;
+  border: 1px solid #f3f3f3;
+}
+@media (max-width: 768px) {
+  /* line 57, ../sass/browser.scss */
+  .browser .toolbar {
+    background: white;
+    border: 1px solid #999;
+    border-top: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    position: relative;
+    top: -9px;
+  }
+}
+/* line 74, ../sass/browser.scss */
+.browser .toolbar ul.buttons {
+  list-style-type: none;
+  float: left;
+  width: 65px;
+  margin: 15px 0 0 13px;
+}
+@media (max-width: 768px) {
+  /* line 74, ../sass/browser.scss */
+  .browser .toolbar ul.buttons {
+    display: none;
+  }
+}
+/* line 84, ../sass/browser.scss */
+.browser .toolbar ul.buttons li {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: red;
+  float: left;
+  border-radius: 32px;
+  margin-right: 5px;
+}
+/* line 93, ../sass/browser.scss */
+.browser .toolbar ul.buttons li.close {
+  background: #fc605b;
+  border: 1px solid #ed534f;
+}
+/* line 98, ../sass/browser.scss */
+.browser .toolbar ul.buttons li.minimize {
+  background: #fdbc40;
+  border: 1px solid #edb03d;
+}
+/* line 103, ../sass/browser.scss */
+.browser .toolbar ul.buttons li.fullscreen {
+  background: #33c748;
+  border: 1px solid #2dbb3e;
+}
+/* line 110, ../sass/browser.scss */
+.browser .toolbar div {
+  text-align: center;
+  color: #999;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+  background: white;
+  width: 50%;
+  margin: 8px auto 0;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0 0 2px #888;
+  -webkit-box-shadow: inset 0 0 2px #888;
+  box-shadow: inner 0 0 2px #888;
+}
+@media (max-width: 768px) {
+  /* line 110, ../sass/browser.scss */
+  .browser .toolbar div {
+    width: 90%;
+    background: #efefef;
+  }
+}
+/* line 135, ../sass/browser.scss */
+.browser .contents {
+  background: white;
+  position: relative;
+  top: -3px;
+  color: black;
+  border: 1px solid #ececec;
+  max-height: 360px;
+  overflow: auto;
+}
